@@ -7,15 +7,11 @@ This curated collection gathers premier university lecture series, museum-produc
 - [Museum Education, Inquiry & Inclusive Practice](#museum-education-inquiry--inclusive-practice)
 - [Cultural Heritage Protection, Law & Art Crime](#cultural-heritage-protection-law--art-crime)
 
----
-
 ## Museum Theory, History & Institutional Politics
 
 - [The Art Museum: History, Theory, Controversy (MIT OpenCourseWare / Prof. Kristel Smentek)](https://ocw.mit.edu/courses/4-609-the-art-museum-history-theory-controversy-spring-2014/)
 - [Behind the Scenes at the 21st Century Museum (FutureLearn / University of Leicester & National Museums Liverpool)](https://www.futurelearn.com/courses/museum)
 - [Arts and Heritage Management (Coursera / Università Bocconi)](https://www.coursera.org/learn/arts-heritage-management)
-
----
 
 ## Curatorial Practice, Interpretation & Material Culture
 
@@ -23,16 +19,12 @@ This curated collection gathers premier university lecture series, museum-produc
 - [Modern Art & Ideas (Coursera / The Museum of Modern Art)](https://www.coursera.org/learn/modern-art-ideas)
 - [Seeing Through Photographs (Coursera / The Museum of Modern Art)](https://www.coursera.org/learn/photography)
 
----
-
 ## Museum Education, Inquiry & Inclusive Practice
 
 - [Art & Inquiry: Museum Teaching Strategies For Your Classroom (Coursera / The Museum of Modern Art)](https://www.coursera.org/learn/artinquiry)
 - [Creating Meaningful and Inclusive Museum Practices (FutureLearn / International Council of Museums - ICOM)](https://www.futurelearn.com/courses/meaningful-inclusive-museum-practices)
 - [Using Museums to Develop Learning (FutureLearn / University of Glasgow)](https://www.futurelearn.com/courses/using-museums-to-develop-learning)
 - [Interdisciplinary Teaching with Museum Objects (edX / Smithsonian Institution)](https://www.edx.org/learn/teaching-strategies/the-smithsonian-institution-interdisciplinary-teaching-with-museum-objects)
-
----
 
 ## Cultural Heritage Protection, Law & Art Crime
 

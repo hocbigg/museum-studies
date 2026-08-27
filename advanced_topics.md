@@ -14,8 +14,6 @@ Choose one or more specialization tracks depending on your career trajectory and
 4. **Conservation Science, Preventive Stewardship & Heritage Risk:** Focuses on material degradation chemistry, environmental control engineering, technical art history, and emergency triage workflows for endangered heritage.
 5. **Provenance Research, Restitution & Critical Museum Policy:** Examines historical title transfer investigations, post-colonial restitution debates, deaccessioning jurisprudence, and institutional accountability in museum governance.
 
----
-
 ## Critical Curatorial Studies & Exhibition Theory
 
 | Topic | Why Study | Resources |
@@ -24,8 +22,6 @@ Choose one or more specialization tracks depending on your career trajectory and
 | Spatial Politics & Exhibition Scenography | Examines how architectural volume, lighting, traffic flow, and wall texts mediate the viewer's bodily and cognitive experience of art and artifacts. This study prepares curators to design conceptually rigorous physical installations beyond the myth of the neutral "white cube." | - Charlotte Klonk – *Spaces of Experience: Art Gallery Interiors from 1800 to 2000* (Yale University Press)<br>- Reesa Greenberg, Bruce W. Ferguson, and Sandy Nairne (eds.) – *Thinking About Exhibitions* (Routledge) |
 | Curating Time-Based Media & Ephemeral Art | Addresses the technical, ethical, and spatial challenges of staging variable media, performance art, multi-channel video, and software-driven installations. It equips curators with the strategies needed to display and document unstable, dynamic, and process-based works. | - Beryl Graham and Sarah Cook – *Rethinking Curating: Art after New Media* (MIT Press)<br>- [Guggenheim Museum – Conserving Computer-Based Art (CCBA)](https://www.guggenheim.org/conservation/time-based-media) |
 | Radical & Discursive Curating | Focuses on interventionist, activist, and dialogic curatorial models that challenge traditional museum hierarchies and engage directly with socio-political crises. It prepares curators to create exhibitions that operate as active forums for public contestation rather than passive reception. | - Claire Bishop – *Radical Museology: or, What's 'Contemporary' in Museums of Contemporary Art?* (Walther König)<br>- Anthony Shelton – *Critical Museology: A Manifesto* (Museum Worlds) |
-
----
 
 ## Digital Museology, Computational Heritage & Linked Data
 
@@ -36,8 +32,6 @@ Choose one or more specialization tracks depending on your career trajectory and
 | Spatial Computing, AR/VR & Immersive Gallery Systems | Analyzes the deployment of augmented reality, virtual reality, and mixed reality to produce situated narratives and interactive gallery interpretation. It enables professionals to design digital spatial experiences while critically evaluating their impact on visitor focus and narrative absorption. | - Vince Dziekan – *Virtuality and the Art of Exhibition: Curatorial Design for Multimodal Spaces* (Intellect Books)<br>- Jenny Kidd – *Museums in the New Mediascape: Transmedia, Participation, Ethics* (Routledge) |
 | Machine Learning & Algorithmic Curation | Investigates the implementation of computer vision, large language models, and automated classification systems across massive digitized museum collections. It trains scholars to detect algorithmic bias, automate metadata enhancement, and critically assess synthetic media in cultural heritage. | - Oonagh Murphy and Elena Villaespesa – *AI and Museums: Exploring the Synergies, Challenges, and Horizons* (Goldsmiths / Pratt Institute)<br>- [Europeana Pro – Artificial Intelligence and Cultural Heritage Hub](https://pro.europeana.eu/) |
 
----
-
 ## Decolonial, Indigenous & Community Museologies
 
 | Topic | Why Study | Resources |
@@ -47,8 +41,6 @@ Choose one or more specialization tracks depending on your career trajectory and
 | Community Co-Curation & Participatory Practice | Explores participatory action research, shared authority, and grassroots co-creation models where community members direct exhibition narratives. It equips practitioners to navigate institutional power dynamics, build trust, and avoid extractive community consultation. | - [Nina Simon – *The Participatory Museum* (Open Access Edition)](https://www.participatorymuseum.org/)<br>- Bernadette Lynch – *Whose Cake is it Anyway? A Collaborative Investigation into Engagement and Participation in UK Museums* (Paul Hamlyn Foundation) |
 | Interpreting Contested & Traumatic Histories | Investigates curatorial approaches to presenting objects and sites tied to state-sponsored violence, enslavement, genocide, and armed conflict. It prepares museum leaders to negotiate collective grief, survivor testimonies, and contested national memory with methodological and ethical care. | - Sharon Macdonald – *Difficult Heritage: Negotiating the Nazi Past in Nuremberg and Beyond* (Routledge)<br>- Julia Rose – *Interpreting Difficult History at Museums and Historic Sites* (Rowman & Littlefield) |
 
----
-
 ## Conservation Science, Preventive Stewardship & Heritage Risk
 
 | Topic | Why Study | Resources |
@@ -57,8 +49,6 @@ Choose one or more specialization tracks depending on your career trajectory and
 | Preventive Conservation & Microclimate Control | Applies psychrometric physics, airflow modeling, pollutant monitoring, and lighting science to stabilize storage and gallery microenvironments. It provides conservators with the engineering principles needed to systematically mitigate the Ten Agents of Deterioration. | - Stefan Michalski – *The Ten Agents of Deterioration* (Canadian Conservation Institute)<br>- [Canadian Conservation Institute (CCI) – Caring for Heritage Collections & Technical Bulletins](https://www.canada.ca/en/conservation-institute.html) |
 | Emergency Preparedness & Heritage First Aid in Times of Crisis | Details rapid disaster response workflows, risk assessments, and stabilization triage for cultural property threatened by armed conflict, natural disasters, or structural collapse. It trains professionals to deploy alongside civil defense and humanitarian agencies during active emergencies. | - [ICCROM – *First Aid to Cultural Heritage in Times of Crisis: Handbook and Toolkit*](https://www.iccrom.org/publication/first-aid-cultural-heritage-times-crisis) (Aparna Tandon)<br>- [Blue Shield International – Cultural Property Protection Resources](https://blueshieldinternational.org/) |
 | Sustainable Heritage Conservation & Climate Adaptation | Examines passive environmental control, adaptive reuse of heritage buildings, and carbon footprint reduction within high-energy museum facilities facing climate volatility. It prepares leaders to balance rigid preservation standards with ecological sustainability mandates. | - Sarah Sutton – *Environmental Sustainability at Historic Sites and Museums* (Rowman & Littlefield)<br>- [ICOM – Working Group on Sustainability and Climate Action](https://icom.museum/) |
-
----
 
 ## Provenance Research, Restitution & Critical Museum Policy
 

@@ -8,8 +8,6 @@ This curated bibliography brings together field-defining monographs, seminal the
 - [Visitor Meaning-Making, Semiotics & Experience Theory](#visitor-meaning-making-semiotics--experience-theory)
 - [Radical Museology, Social Justice & Institutional Futures](#radical-museology-social-justice--institutional-futures)
 
----
-
 ## Foundational Primary Texts & Institutional Epistemology
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -19,8 +17,6 @@ This curated bibliography brings together field-defining monographs, seminal the
 | *"The Work of Art in the Age of Mechanical Reproduction"* | Walter Benjamin | Landmark Essay | Examines how reproductive technologies dissolve the unique, cultic "aura" of objects, transforming cultural artifacts from ritualistic instruments into politically accessible media. |
 | *Museums, Objects, and Collections: A Cultural Study* | Susan M. Pearce | Book / Monograph | Establishes a rigorous methodological and philosophical foundation for material culture, analyzing how objects acquire, shift, and communicate social meaning within collections. |
 | *Collectors and Curiosities: Paris and Venice, 1500–1800* | Krzysztof Pomian | Book / Monograph | Traces the intellectual transition from early modern *Wunderkammern* (cabinets of curiosities) to institutional museums, theorizing objects as "semiophores" that mediate between the visible and invisible worlds. |
-
----
 
 ## Critical Museology, Power & Representation
 
@@ -32,8 +28,6 @@ This curated bibliography brings together field-defining monographs, seminal the
 | *Exhibiting Cultures: The Poetics and Politics of Museum Display* | Ivan Karp and Steven D. Lavine (eds.) | Anthology / Landmark Volume | The seminal Smithsonian volume that catalyzed the "new museology," critiquing ethnographic representation, cultural appropriation, and the hidden ideological assumptions of curators. |
 | *"From the Critique of Institutions to an Institution of Critique"* | Andrea Fraser | Landmark Essay | A key theoretical text on Institutional Critique that interrogates whether artists and museum practitioners can genuinely challenge institutional power from within the very structures that sponsor them. |
 
----
-
 ## Decoloniality, Indigenous Sovereignty & Restitution
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -43,8 +37,6 @@ This curated bibliography brings together field-defining monographs, seminal the
 | *Decolonizing Museums: Representing Native America in National and Tribal Museums* | Amy Lonetree | Book / Monograph | Details how Native American communities challenge institutional erasure, reclaim ancestral material culture, and utilize tribal museums to confront historical trauma and assert tribal sovereignty. |
 | *"Museums as Contact Zones"* (in *Routes: Travel and Translation in the Late Twentieth Century*) | James Clifford | Landmark Essay / Chapter | Reframes museums from static storehouses into relational, highly contested "contact zones" where unequal colonial powers and source communities negotiate, collide, and resist. |
 
----
-
 ## Visitor Meaning-Making, Semiotics & Experience Theory
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -53,8 +45,6 @@ This curated bibliography brings together field-defining monographs, seminal the
 | *Learning in the Museum* | George E. Hein | Book / Monograph | Develops the constructivist museum framework, arguing that visitors do not passively absorb curatorial authority but actively construct their own unique meaning from exhibits. |
 | *"Travels in Hyperreality"* | Umberto Eco | Landmark Essay | A classic semiotic critique of American museums, waxworks, and period rooms, deconstructing the institutional obsession with fabricating absolute, hyperreal replicas of reality. |
 | *Exhibit Labels: An Interpretive Approach* | Beverly Serrell | Book / Monograph | Revolutionized modern museum communication by introducing the "Big Idea" methodology and teaching curators to write visitor-centered, narrative-driven interpretive texts. |
-
----
 
 ## Radical Museology, Social Justice & Institutional Futures
 
