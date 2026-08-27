@@ -1,46 +1,70 @@
 # Advanced Topics
 
-- [Curatorial & Research Practice](#curatorial--research-practice)
-- [Digital Museums & Technology](#digital-museums--technology)
-- [Inclusive, Indigenous, and Community-Based Museums](#inclusive-indigenous-and-community-based-museums)
-- [Contemporary & Global Issues in Museums](#contemporary--global-issues-in-museums)
+- [Critical Curatorial Studies & Exhibition Theory](#critical-curatorial-studies--exhibition-theory)
+- [Digital Museology, Computational Heritage & Linked Data](#digital-museology-computational-heritage--linked-data)
+- [Decolonial, Indigenous & Community Museologies](#decolonial-indigenous--community-museologies)
+- [Conservation Science, Preventive Stewardship & Heritage Risk](#conservation-science-preventive-stewardship--heritage-risk)
+- [Provenance Research, Restitution & Critical Museum Policy](#provenance-research-restitution--critical-museum-policy)
 
-You do not need to study all of these advanced topics. Choose one (or more) depending on your interests and goals after you complete the core:
+Choose one or more specialization tracks depending on your career trajectory and research goals:
 
-1. Curatorial & Research Practice  
-2. Digital Museums & Technology  
-3. Inclusive, Indigenous, and Community-Based Museums  
+1. **Critical Curatorial Studies & Exhibition Theory:** Investigates the intellectual histories of display, spatial politics, commissioning practices, and the role of exhibitions as sites of cultural discourse.
+2. **Digital Museology, Computational Heritage & Linked Data:** Explores semantic web ontologies, 3D volumetric capture, immersive XR environments, and the application of artificial intelligence to cultural collections.
+3. **Decolonial, Indigenous & Community Museologies:** Analyzes Indigenous research methodologies, community co-curation, sovereignty in heritage management, and strategies for unsettling colonial museum legacies.
+4. **Conservation Science, Preventive Stewardship & Heritage Risk:** Focuses on material degradation chemistry, environmental control engineering, technical art history, and emergency triage workflows for endangered heritage.
+5. **Provenance Research, Restitution & Critical Museum Policy:** Examines historical title transfer investigations, post-colonial restitution debates, deaccessioning jurisprudence, and institutional accountability in museum governance.
 
-**Contemporary & Global Issues in Museums**: This is a cross-cutting track. Study it after (or alongside) any of the specialization tracks above if you are interested in current debates, future directions, and the bigger societal role of museums today.
+---
 
-## Curatorial & Research Practice
+## Critical Curatorial Studies & Exhibition Theory
 
-| Subject | Core Resource |
-| --- | --- |
-| Curatorial Practice | [Tate – Curatorial Practice Online Resources](https://www.tate.org.uk/art/artists/curators) (Note: Tate's curatorial and research resources portal) |
-| Research in Museums | [British Museum – Collections Research Guides](https://www.britishmuseum.org/collection/research) |
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Exhibition Histories & Curatorial Theory | Investigates how exhibitions function as ideological mediums and traces the evolution of the curator from collection custodian to discursive author. Mastering this theoretical lineage enables practitioners to critically deconstruct historical and contemporary display paradigms. | - Bruce Altshuler – *Biennials and Beyond: Exhibitions that Made Art History* (Phaidon Press)<br>- Paul O'Neill – *The Culture of Curating and the Curating of Culture(s)* (MIT Press)<br>- Terry Smith – *Thinking Contemporary Curating* (Independent Curators International) |
+| Spatial Politics & Exhibition Scenography | Examines how architectural volume, lighting, traffic flow, and wall texts mediate the viewer's bodily and cognitive experience of art and artifacts. This study prepares curators to design conceptually rigorous physical installations beyond the myth of the neutral "white cube." | - Charlotte Klonk – *Spaces of Experience: Art Gallery Interiors from 1800 to 2000* (Yale University Press)<br>- Reesa Greenberg, Bruce W. Ferguson, and Sandy Nairne (eds.) – *Thinking About Exhibitions* (Routledge) |
+| Curating Time-Based Media & Ephemeral Art | Addresses the technical, ethical, and spatial challenges of staging variable media, performance art, multi-channel video, and software-driven installations. It equips curators with the strategies needed to display and document unstable, dynamic, and process-based works. | - Beryl Graham and Sarah Cook – *Rethinking Curating: Art after New Media* (MIT Press)<br>- [Guggenheim Museum – Conserving Computer-Based Art (CCBA)](https://www.guggenheim.org/conservation/time-based-media) |
+| Radical & Discursive Curating | Focuses on interventionist, activist, and dialogic curatorial models that challenge traditional museum hierarchies and engage directly with socio-political crises. It prepares curators to create exhibitions that operate as active forums for public contestation rather than passive reception. | - Claire Bishop – *Radical Museology: or, What's 'Contemporary' in Museums of Contemporary Art?* (Walther König)<br>- Anthony Shelton – *Critical Museology: A Manifesto* (Museum Worlds) |
 
-## Digital Museums & Technology
+---
 
-| Subject | Core Resource |
-| --- | --- |
-| Digitization & Digital Collections | [Smithsonian Digitization Strategic Plan](https://www.si.edu/digitization/plan) |
-| Digital Exhibitions | [Europeana – Digital Exhibition Toolkit](https://pro.europeana.eu/page/digital-exhibitions-toolkit) |
-| Data, Metadata & Standards | [Getty – Introduction to Museum Metadata](https://www.getty.edu/research/tools/vocabularies/) |
+## Digital Museology, Computational Heritage & Linked Data
 
-## Inclusive, Indigenous, and Community-Based Museums
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Semantic Web, Ontologies & Linked Open Data | Explores the formal semantic frameworks required to make museum collections interoperable, machine-readable, and integrated across global knowledge graphs. Understanding ontologies allows data architects to model complex historical and cultural relationships without informational flattening. | - [CIDOC CRM – Conceptual Reference Model (ISO 21127 Standard)](https://www.cidoc-crm.org/)<br>- [Getty Research Institute – Getty Vocabularies & Linked Open Data (AAT, TGN, ULAN)](https://www.getty.edu/research/tools/vocabularies/)<br>- Ross Parry – *Recoding the Museum: Digital Heritage Technologies* (Routledge) |
+| 3D Digitization & Volumetric Heritage | Covers high-resolution 3D surface scanning, LiDAR, photogrammetry, and the ethics of creating digital twins for fragile or inaccessible cultural heritage. It prepares technical specialists to create research-grade 3D assets for scholarly analysis, physical replication, and virtual access. | - [Smithsonian Institution – 3D Digitization Program & Viewer](https://3d.si.edu/)<br>- Historic England – *3D Laser Scanning for Heritage: Advice and Guidance on the Use of Laser Scanning in Cultural Heritage* (Historic England Guidance) |
+| Spatial Computing, AR/VR & Immersive Gallery Systems | Analyzes the deployment of augmented reality, virtual reality, and mixed reality to produce situated narratives and interactive gallery interpretation. It enables professionals to design digital spatial experiences while critically evaluating their impact on visitor focus and narrative absorption. | - Vince Dziekan – *Virtuality and the Art of Exhibition: Curatorial Design for Multimodal Spaces* (Intellect Books)<br>- Jenny Kidd – *Museums in the New Mediascape: Transmedia, Participation, Ethics* (Routledge) |
+| Machine Learning & Algorithmic Curation | Investigates the implementation of computer vision, large language models, and automated classification systems across massive digitized museum collections. It trains scholars to detect algorithmic bias, automate metadata enhancement, and critically assess synthetic media in cultural heritage. | - Oonagh Murphy and Elena Villaespesa – *AI and Museums: Exploring the Synergies, Challenges, and Horizons* (Goldsmiths / Pratt Institute)<br>- [Europeana Pro – Artificial Intelligence and Cultural Heritage Hub](https://pro.europeana.eu/) |
 
-| Subject | Core Resource |
-| --- | --- |
-| Decolonizing Museums | [Curatopia (ICOM Canada, open access)](https://curatopia.museum/) (Note: Related open resources and publications) |
-| Accessibility & Universal Design | [Smithsonian Accessibility Program](https://www.si.edu/accessibility) |
-| Community Partnerships | [Museums Association (UK) – Community Engagement Guides](https://www.museumsassociation.org/campaigns/community-engagement/) |
+---
 
-## Contemporary & Global Issues in Museums
+## Decolonial, Indigenous & Community Museologies
 
-| Subject | Core Resource |
-| --- | --- |
-| Museums & Social Justice | [Museums Association – *Museums Change Lives*](https://www.museumsassociation.org/campaigns/museums-change-lives/) |
-| Sustainability & Climate Change | [ICOM – Museums and Sustainability Reports](https://icom.museum/en/resources/sustainability/) |
-| Crisis, Conflict & Museums | [ICCROM – Museums in Times of Crisis](https://www.iccrom.org/section/museums-and-collections/museums-crisis) |
-| Global Museum Futures | [ICOM – Museum Futures & Foresight Reports](https://icom.museum/en/resources/futures/) |
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Decolonizing Methodologies & Indigenous Curation | Critiques Western taxonomic dominance in museum collection, classification, and display while advancing Indigenous epistemologies. It is fundamental for restructuring institutional authority and recentering Source Community intellectual traditions within heritage institutions. | - Linda Tuhiwai Smith – *Decolonizing Methodologies: Research and Indigenous Peoples* (Zed Books)<br>- Amy Lonetree – *Decolonizing Museums: Representing Native America in National and Tribal Museums* (University of North Carolina Press) |
+| Indigenous Cultural Protocols & Repatriation | Analyzes statutory mandates, tribal consultation obligations, and cultural protocols governing the care and return of ancestral remains and sacred objects. Mastery of these protocols ensures ethical compliance with legal frameworks and respectful collaboration with traditional custodians. | - [National Park Service – National NAGPRA Program Compliance & Training](https://www.nps.gov/nagpra/)<br>- Terri Janke – *True Tracks: Working with Indigenous Knowledge and Culture* (NewSouth Publishing) |
+| Community Co-Curation & Participatory Practice | Explores participatory action research, shared authority, and grassroots co-creation models where community members direct exhibition narratives. It equips practitioners to navigate institutional power dynamics, build trust, and avoid extractive community consultation. | - [Nina Simon – *The Participatory Museum* (Open Access Edition)](https://www.participatorymuseum.org/)<br>- Bernadette Lynch – *Whose Cake is it Anyway? A Collaborative Investigation into Engagement and Participation in UK Museums* (Paul Hamlyn Foundation) |
+| Interpreting Contested & Traumatic Histories | Investigates curatorial approaches to presenting objects and sites tied to state-sponsored violence, enslavement, genocide, and armed conflict. It prepares museum leaders to negotiate collective grief, survivor testimonies, and contested national memory with methodological and ethical care. | - Sharon Macdonald – *Difficult Heritage: Negotiating the Nazi Past in Nuremberg and Beyond* (Routledge)<br>- Julia Rose – *Interpreting Difficult History at Museums and Historic Sites* (Rowman & Littlefield) |
+
+---
+
+## Conservation Science, Preventive Stewardship & Heritage Risk
+
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Technical Art History & Material Characterization | Utilizes analytical chemistry, spectroscopy, X-radiography, and cross-sectional microscopy to identify material composition, degradation mechanisms, and artistic techniques. It enables specialists to reconstruct the material histories of artifacts and detect subtle forms of decay. | - Joyce Hill Stoner and Rebecca Rushfield (eds.) – *Conservation of Easel Paintings* (Routledge)<br>- [Getty Conservation Institute – Conservation Science Research Publications](https://www.getty.edu/conservation/publications_resources/) |
+| Preventive Conservation & Microclimate Control | Applies psychrometric physics, airflow modeling, pollutant monitoring, and lighting science to stabilize storage and gallery microenvironments. It provides conservators with the engineering principles needed to systematically mitigate the Ten Agents of Deterioration. | - Stefan Michalski – *The Ten Agents of Deterioration* (Canadian Conservation Institute)<br>- [Canadian Conservation Institute (CCI) – Caring for Heritage Collections & Technical Bulletins](https://www.canada.ca/en/conservation-institute.html) |
+| Emergency Preparedness & Heritage First Aid in Times of Crisis | Details rapid disaster response workflows, risk assessments, and stabilization triage for cultural property threatened by armed conflict, natural disasters, or structural collapse. It trains professionals to deploy alongside civil defense and humanitarian agencies during active emergencies. | - [ICCROM – *First Aid to Cultural Heritage in Times of Crisis: Handbook and Toolkit*](https://www.iccrom.org/publication/first-aid-cultural-heritage-times-crisis) (Aparna Tandon)<br>- [Blue Shield International – Cultural Property Protection Resources](https://blueshieldinternational.org/) |
+| Sustainable Heritage Conservation & Climate Adaptation | Examines passive environmental control, adaptive reuse of heritage buildings, and carbon footprint reduction within high-energy museum facilities facing climate volatility. It prepares leaders to balance rigid preservation standards with ecological sustainability mandates. | - Sarah Sutton – *Environmental Sustainability at Historic Sites and Museums* (Rowman & Littlefield)<br>- [ICOM – Working Group on Sustainability and Climate Action](https://icom.museum/) |
+
+---
+
+## Provenance Research, Restitution & Critical Museum Policy
+
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Systematic Provenance Research & Archival Tracing | Covers forensic archival methodologies to reconstruct the chain of custody for artworks and cultural property subject to Nazi-era spoliation or illicit antiquities networks. It provides the forensic skills required to verify clear title and resolve complex restitution claims. | - Nancy H. Yeide, Konstantin Akinsha, and Amy L. Walsh – *The AAM Guide to Provenance Research* (American Alliance of Museums)<br>- [German Lost Art Foundation (Deutsches Zentrum Kulturgutverluste) – Provenance Research Standards](https://www.kulturgutverluste.de/) |
+| Post-Colonial Restitution & Transnational Heritage Law | Analyzes international treaties, bilateral accords, and ethical arguments regarding the return of cultural material acquired under asymmetric colonial rule. It prepares museum directors and legal counsel to negotiate state-level repatriation claims and structure long-term transnational partnerships. | - Felwine Sarr and Bénédicte Savoy – *The Restitution of African Cultural Heritage: Toward a New Relational Ethics* (Ministère de la Culture Report)<br>- Dan Hicks – *The Brutish Museums: The Benin Bronzes, Colonial Violence and Cultural Restitution* (Pluto Press) |
+| Deaccessioning Jurisprudence & Fiduciary Stewardship | Examines the legal, financial, and ethical boundaries governing the formal disposal of accessions from permanent museum collections. It trains administrators to navigate controversial deaccessioning plans while upholding fiduciary responsibilities, public trust, and accreditation standards. | - Martin Gammon – *Deaccessioning and Its Discontents: A Critical History* (Amherst College Press)<br>- [Association of Art Museum Directors (AAMD) – Professional Practices in Art Museums](https://aamd.org/) |
+| Institutional Critique, Labor & Philanthropic Governance | Analyzes the socio-economic dynamics of museum funding, corporate sponsorships, ethical boardsmanship, and cultural labor unionization. It provides the critical framework required to audit conflicts of interest, ethical gift acceptance policies, and institutional transparency. | - Andrea Fraser – *Museum Highlights: The Writings of Andrea Fraser* (MIT Press)<br>- Janet Marstine (ed.) – *The Routledge Companion to Museum Ethics: Redefining Ethics for the Twenty-First-Century Museum* (Routledge) |

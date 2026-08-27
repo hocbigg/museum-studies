@@ -1,42 +1,40 @@
 # Great Courses
 
-This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.
+This curated collection gathers premier university lecture series, museum-produced MOOCs, and specialized masterclasses in **Museum Studies**. These courses go beyond introductory surveys to offer deep dives into curatorial methodologies, heritage protection, visitor learning theory, and institutional governance.
 
-## Museum Theory and History
+- [Museum Theory, History & Institutional Politics](#museum-theory-history--institutional-politics)
+- [Curatorial Practice, Interpretation & Material Culture](#curatorial-practice-interpretation--material-culture)
+- [Museum Education, Inquiry & Inclusive Practice](#museum-education-inquiry--inclusive-practice)
+- [Cultural Heritage Protection, Law & Art Crime](#cultural-heritage-protection-law--art-crime)
 
-| Courses | Duration | Effort |
-| --- | --- | --- |
-| [The Art Museum: History, Theory, Controversy (MIT OpenCourseWare)](https://ocw.mit.edu/courses/4-609-the-art-museum-history-theory-controversy-spring-2014/) | 14 weeks | 10-12 hours/week |
-| [Modern Art & Ideas (Coursera / MoMA)](https://www.coursera.org/learn/modern-art-ideas) | 4 weeks | 3-5 hours/week |
+---
 
-## Exhibition and Interpretation
+## Museum Theory, History & Institutional Politics
 
-| Courses | Duration | Effort |
-| --- | --- | --- |
-| [Tangible Things (edX / Harvard)](https://www.edx.org/learn/history/harvard-university-tangible-things) | 10 weeks | 2-4 hours/week |
-| [Art & Inquiry: Museum Teaching Strategies For Your Classroom (Coursera / MoMA)](https://www.coursera.org/learn/artinquiry) | 4 weeks | 4-6 hours/week |
+- [The Art Museum: History, Theory, Controversy (MIT OpenCourseWare / Prof. Kristel Smentek)](https://ocw.mit.edu/courses/4-609-the-art-museum-history-theory-controversy-spring-2014/)
+- [Behind the Scenes at the 21st Century Museum (FutureLearn / University of Leicester & National Museums Liverpool)](https://www.futurelearn.com/courses/museum)
+- [Arts and Heritage Management (Coursera / Università Bocconi)](https://www.coursera.org/learn/arts-heritage-management)
 
-## Contemporary Issues and Decolonization
+---
 
-| Courses | Duration | Effort |
-| --- | --- | --- |
-| [Creating Meaningful and Inclusive Museum Practices (FutureLearn / ICOM)](https://www.futurelearn.com/courses/meaningful-inclusive-museum-practices) | 4 weeks | 3 hours/week |
-| [Interdisciplinary Teaching with Museum Objects (edX / Smithsonian)](https://www.edx.org/learn/teaching-strategies/the-smithsonian-institution-interdisciplinary-teaching-with-museum-objects) | Self-paced | 2-4 hours/week |
+## Curatorial Practice, Interpretation & Material Culture
 
-## Art and Modern Museums
+- [Tangible Things: Discovering History Through Artworks, Artifacts, Scientific Specimens, and the Stuff Around You (edX / Harvard University)](https://www.edx.org/learn/history/harvard-university-tangible-things)
+- [Modern Art & Ideas (Coursera / The Museum of Modern Art)](https://www.coursera.org/learn/modern-art-ideas)
+- [Seeing Through Photographs (Coursera / The Museum of Modern Art)](https://www.coursera.org/learn/photography)
 
-| Courses | Duration | Effort |
-| --- | --- | --- |
-| [In the Studio: Postwar Abstract Painting (Coursera / MoMA)](https://www.coursera.org/learn/painting) | 7 weeks | 2-4 hours/week |
-| [Seeing Through Photographs (Coursera / MoMA)](https://www.coursera.org/learn/photography) | 6 weeks | 2-3 hours/week |
+---
 
+## Museum Education, Inquiry & Inclusive Practice
 
-## Online Learning - Great Courses
+- [Art & Inquiry: Museum Teaching Strategies For Your Classroom (Coursera / The Museum of Modern Art)](https://www.coursera.org/learn/artinquiry)
+- [Creating Meaningful and Inclusive Museum Practices (FutureLearn / International Council of Museums - ICOM)](https://www.futurelearn.com/courses/meaningful-inclusive-museum-practices)
+- [Using Museums to Develop Learning (FutureLearn / University of Glasgow)](https://www.futurelearn.com/courses/using-museums-to-develop-learning)
+- [Interdisciplinary Teaching with Museum Objects (edX / Smithsonian Institution)](https://www.edx.org/learn/teaching-strategies/the-smithsonian-institution-interdisciplinary-teaching-with-museum-objects)
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week
-[Mindshift](https://www.coursera.org/learn/mindshift) | 4 weeks | 2 hours/week
-[Powersearching with Google](https://www.edx.org/learn/google-power-searching/google-power-searching-with-google) | 3 weeks | 4-6 hours/week
+---
+
+## Cultural Heritage Protection, Law & Art Crime
+
+- [Antiquities Trafficking and Art Crime (FutureLearn / University of Glasgow)](https://www.futurelearn.com/courses/art-crime)
+- [International Cultural Heritage Law and Provenance Studies (Université de Genève / Art-Law Centre)](https://www.unige.ch/formcont/en/courses/cultural-heritage)

@@ -61,15 +61,14 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 
 Complete the following sections in sequence:
 
-1. **Foundations of Museums and Cultural Heritage**  
-   Start here. This section introduces the most basic ideas about what museums are and why they exist.
+1. **Foundations of Museums and Cultural Heritage**
+   Start here. This section introduces foundational definitions, historical evolutions, and the theoretical underpinnings of cultural heritage and material culture.
 
-2. **Disciplinary Contexts for Museum Work**  
-   Next. This gives you the important outside knowledge (art history, anthropology, global history) that museum professionals rely on every day.
+2. **Disciplinary Contexts for Museum Work**
+   Next. This establishes essential cross-disciplinary knowledge (art history, anthropology, and global historiography) necessary for understanding collection typologies.
 
-3. **Core Museological Functions**  
-   This is the longest and most central part. Work through all five subsections (Collections & Stewardship → Ethics, Law, and Professional Standards → Exhibitions & Interpretation → Museum Education & Visitor Engagement → Museum Management & Governance) in the order they appear.  
-   These topics cover the practical heart of what museums actually do.
+3. **Core Museological Functions**
+   This is the longest and most central part. Work through all five subsections (Collections & Stewardship → Ethics, Law, and Professional Standards → Exhibitions & Interpretation → Museum Education & Visitor Engagement → Museum Management & Governance) in order. These topics cover the practical, legal, and operational core of museum practice.
 
 ## Foundations of Museums and Cultural Heritage
 
@@ -77,64 +76,64 @@ Purpose: Introduce museums as cultural institutions with specific histories, soc
 
 | Subject | Core Resource |
 | --- | --- |
-| What Is a Museum? (Definitions & Functions) | [ICOM – *Key Concepts of Museology* (open-access PDF)](https://www.icom-italia.org/wp-content/uploads/2018/02/ICOMItalia.KeyconceptsofMuseology.Pubblicazioni.2010.pdf) |
-| History of Museums | [Edward P. Alexander – *Museums in Motion* (Archive.org)](https://archive.org/details/museumsinmotioni0002alex) |
-| Cultural Heritage & Memory | [UNESCO – *Introduction to Cultural Heritage* (open access)](https://whc.unesco.org/en/about/) (Note: UNESCO's core introduction and resources on cultural heritage; direct introductory page as no single titled PDF matches exactly, but this is the authoritative open portal) |
-| Material Culture & Objects | [Open University – *Introduction to Material Culture*](https://www.open.edu/openlearn/history-the-arts/visual-art/an-introduction-material-culture/content-section-0) |
+| What Is a Museum? (Definitions & Functions) | [ICOM – Official Museum Definition and Key Concepts of Museology](https://icom.museum/en/resources/standards-guidelines/museum-definition/) (André Desvallées & François Mairesse, eds.) |
+| History of Museums | [Edward P. Alexander, Mary Alexander, and Juilee Decker – *Museums in Motion: An Introduction to the History and Functions of Museums* (Archive.org)](https://archive.org/details/museumsinmotioni0002alex) |
+| Cultural Heritage & Memory | [UNESCO – World Heritage Centre & Cultural Heritage Conventions Portal](https://whc.unesco.org/) |
+| Material Culture & Objects | [Open University – *An Introduction to Material Culture* (OpenLearn)](https://www.open.edu/openlearn/history-the-arts/visual-art/an-introduction-material-culture/content-section-0) |
 
 ## Disciplinary Contexts for Museum Work
 
-Purpose: Provide essential background knowledge without overwhelming disciplinary depth.
+Purpose: Provide essential background knowledge across major disciplines represented in museum collections.
 
 | Subject | Core Resource |
 | --- | --- |
-| Art & Visual Culture (for Museums) | [MIT OpenCourseWare – *Introduction to Art History*](https://ocw.mit.edu/courses/4-601-introduction-to-art-history-fall-2018/) |
-| Anthropology & Ethnographic Collections | [MIT OCW – *Introduction to Anthropology*](https://ocw.mit.edu/courses/21a-00-introduction-to-anthropology-spring-2013/) |
-| Global Historical Context | [Columbia University – *History of the World to 1500 CE* (YouTube)](https://www.youtube.com/playlist?list=PL49C7AA14331CFEF3) |
+| Art & Visual Culture (for Museums) | [MIT OpenCourseWare – *Introduction to Art History* (Course 4.601)](https://ocw.mit.edu/courses/4-601-introduction-to-art-history-fall-2018/) |
+| Anthropology & Ethnographic Collections | [MIT OpenCourseWare – *Introduction to Anthropology* (Course 21A.00)](https://ocw.mit.edu/courses/21a-00-introduction-to-anthropology-spring-2013/) |
+| Global Historical Context | Columbia University – *History of the World to 1500 CE* (Recorded Lecture Series, YouTube) |
 
 ## Core Museological Functions
 
-Purpose: Cover the essential operational and intellectual work of museums.
+Purpose: Cover the essential operational, legal, curatorial, educational, and managerial work of museums.
 
-### 1. Collections & Stewardship
+### Collections & Stewardship
 
 | Subject | Core Resource |
 | --- | --- |
-| Collections Management | [Connecting to Collections Care (free course)](https://connectingtocollections.org/) |
-| Preventive Conservation | [Canadian Conservation Institute – Preventive Conservation Guidelines](https://www.canada.ca/en/conservation-institute/services/preventive-conservation.html) (Note: Official guidelines series; freely accessible online) |
-| Documentation & Registration | [Spectrum Collections Trust – *Introduction to SPECTRUM* (free)](https://collectionstrust.org.uk/spectrum/) |
+| Collections Management | [Connecting to Collections Care (C2C Care / FAIC Free Courses & Webinars)](https://connectingtocollections.org/) |
+| Preventive Conservation | [Canadian Conservation Institute (CCI) – *Preventive Conservation Guidelines for Collections*](https://www.canada.ca/en/conservation-institute/services/preventive-conservation.html) |
+| Documentation & Registration | [Collections Trust – *Spectrum: The UK Museum Collections Management Standard*](https://collectionstrust.org.uk/) |
 
-### 2. Ethics, Law, and Professional Standards
+### Ethics, Law, and Professional Standards
 
 | Subject | Core Resource |
 | --- | --- |
 | Museum Ethics | [ICOM – *Code of Ethics for Museums*](https://icom.museum/en/resources/standards-guidelines/code-of-ethics/) |
-| Provenance & Repatriation | [Smithsonian Provenance Research Case Studies](https://provenance.si.edu/) |
-| Cultural Property Law (Overview) | [Cornell Law School – Cultural Property Law (open resources)](https://www.law.cornell.edu/wex/cultural_property) |
+| Provenance & Repatriation | [Smithsonian Institution – Provenance Research Guidelines and Resources](https://www.si.edu/) |
+| Cultural Property Law | [UNESCO – *1970 Convention on the Means of Prohibiting and Preventing the Illicit Import, Export and Transfer of Ownership of Cultural Property*](https://www.unesco.org/en/fight-illicit-trafficking-cultural-property/1970-convention); Marie C. Malaro & Ildiko DeAngelis – *A Legal Primer on Managing Museum Collections* (Smithsonian Books) |
 
-### 3. Exhibitions & Interpretation
-
-| Subject | Core Resource |
-| --- | --- |
-| Exhibition Planning & Design | [Harvard/edX – *Tangible Things*](https://www.edx.org/course/tangible-things-discovering-history-through-artworks-artifacts-objects-and-ideas) (Note: Free to audit on edX) |
-| Interpretation & Meaning-Making | [National Association for Interpretation – Free Guides](https://www.interpnet.com/NAI/nai/_publications/Free_Resources.aspx) |
-| Narrative & Storytelling in Museums | [Smithsonian Folkways – Exhibition Interpretation Essays](https://folkways.si.edu/) (Note: Related essays and resources available; official portal) |
-
-### 4. Museum Education & Visitor Engagement
+### Exhibitions & Interpretation
 
 | Subject | Core Resource |
 | --- | --- |
-| Museum Learning Theory | [Falk & Dierking – *Learning from Museums* (Archive.org)](https://archive.org/details/learningfrommuse0000falk) (Note: Search for available editions/scans; full access may vary) |
-| Public Programming | [FutureLearn – *Using Museums to Develop Learning*](https://www.futurelearn.com/courses/using-museums-to-develop-learning) (Note: Free to access with registration) |
-| Visitor Studies & Evaluation | [Institute of Museum and Library Services – Evaluation Toolkit](https://www.imls.gov/research-evaluation/evaluation-resources) |
+| Exhibition Planning & Design | [Harvard University / edX – *Tangible Things: Discovering History Through Artworks, Artifacts, Scientific Specimens, and the Stuff Around You*](https://www.edx.org/learn/history/harvard-university-tangible-things-discovering-history-through-artworks-artifacts-scientific-specimens-and-the-stuff-around-you) |
+| Interpretation & Meaning-Making | [National Association for Interpretation (NAI) Resource Library](https://www.interpnet.com/); Beverly Serrell – *Exhibit Labels: An Interpretive Approach* (Rowman & Littlefield) |
+| Narrative & Storytelling in Museums | [Smithsonian Center for Folklife and Cultural Heritage](https://folklife.si.edu/); Leslie Bedford – *The Art of Museum Storytelling* (Routledge) |
 
-### 5. Museum Management & Governance
+### Museum Education & Visitor Engagement
 
 | Subject | Core Resource |
 | --- | --- |
-| Museum Governance | [American Alliance of Museums – Governance Essentials](https://www.aam-us.org/programs/about-museums/governance/) |
-| Financial Management | [AAM – Museum Finance Resources](https://www.aam-us.org/programs/finance/) |
-| Leadership & Strategy | [Coursera – *Management of Arts & Cultural Organizations*](https://www.coursera.org/learn/arts-culture-management) (Note: Free to audit) |
+| Museum Learning Theory | [John H. Falk & Lynn D. Dierking – *Learning from Museums: Visitor Experiences and the Making of Meaning* (Archive.org)](https://archive.org/details/learningfrommuse0000falk) |
+| Public Programming | [University of Glasgow / FutureLearn – *Using Museums to Develop Learning*](https://www.futurelearn.com/courses/using-museums-to-develop-learning) |
+| Visitor Studies & Evaluation | [Institute of Museum and Library Services (IMLS) – Evaluation Resources and Guidelines](https://www.imls.gov/research-evaluation/evaluation-resources) |
+
+### Museum Management & Governance
+
+| Subject | Core Resource |
+| --- | --- |
+| Museum Governance | [American Alliance of Museums – Leadership and Organizational Structure Standards](https://www.aam-us.org/programs/ethics-standards-and-professional-practices/leadership-and-organizational-structure-standards/) |
+| Financial Management | [American Alliance of Museums – Funding & Business Models Resource Library](https://www.aam-us.org/programs/resource-library/funding-business-models/) |
+| Leadership & Strategy | [Università Bocconi / Coursera – *Arts and Heritage Management*](https://www.coursera.org/learn/arts-heritage-management) |
 
 # Code of conduct
 
