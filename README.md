@@ -3,34 +3,16 @@ title: Hocbigg - Museum Studies
 description: Path to a free self-taught education in Museum Studies!
 ---
 
-# Contents
 
-- [Summary](#summary)
-- [Communities](#communities)
-- [Curriculum](#curriculum)
-- [Code of conduct](#code-of-conduct)
-
-# Summary
+# Introduction
 
 The Museum Studies curriculum is a **complete education in Museum Studies** using online materials.
 
 The program emphasizes interdisciplinary foundations (drawing from history, art history, anthropology, and cultural studies), core museum practices, ethical and theoretical frameworks, and practical synthesis. It balances theory, historical context, professional skills, and critical reflection.
 
-## Organization
 
-This repository is organized into 2 main components:
 
-- **Core Curriculum** (this page): the foundational knowledge of the field;
-- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
 
-**Process:** Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
-
-- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
-- The Core Curriculum provides a shared foundation and is intended to be completed in full.
-- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
-
-Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
 
 **[How to contribute](/CONTRIBUTING.html)**
 
@@ -44,97 +26,97 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
     - [Museum Community on Mastodon (museum.community)](https://museum.community/)
     - [National Emerging Museum Professionals Network (primarily active on LinkedIn and local chapters)](https://www.nempnetwork.org/)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/museum-studies/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
-- Join our Discord server (for discussions around this and other curricula): 
-    
-    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
 # Curriculum
 
-- [Foundations of Museums and Cultural Heritage](#foundations-of-museums-and-cultural-heritage)
-- [Disciplinary Contexts for Museum Work](#disciplinary-contexts-for-museum-work)
-- [Core Museological Functions](#core-museological-functions)
-    - [Collections & Stewardship](#collections--stewardship)
-    - [Ethics, Law, and Professional Standards](#ethics-law-and-professional-standards)
-    - [Exhibitions & Interpretation](#exhibitions--interpretation)
-    - [Museum Education & Visitor Engagement](#museum-education--visitor-engagement)
-    - [Museum Management & Governance](#museum-management--governance)
+## Introduction to Museology and Museum History
 
-Complete the following sections in sequence:
+This subject examines the history, definitions, and social purposes of museums from early cabinets of curiosities to contemporary institutions.
 
-1. **Foundations of Museums and Cultural Heritage**
-   Start here. This section introduces foundational definitions, historical evolutions, and the theoretical underpinnings of cultural heritage and material culture.
+[Museums in Motion: An Introduction to the History and Functions of Museums (Edward P. Alexander, Mary Alexander, and Juilee Decker)](https://archive.org/details/museumsinmotioni0002alex) - Read this first for a comprehensive chronological account of how different museum typologies and institutional functions evolved.
 
-2. **Disciplinary Contexts for Museum Work**
-   Next. This establishes essential cross-disciplinary knowledge (art history, anthropology, and global historiography) necessary for understanding collection typologies.
+[Running a Museum: A Practical Handbook (ICOM / UNESCO / Patrick J. Boylan, ed.)](https://unesdoc.unesco.org/ark:/48223/pf0000141067) - Use alongside Museums in Motion as an open-access practical guide introducing the core operational responsibilities of every modern museum department.
 
-3. **Core Museological Functions**
-   This is the longest and most central part. Work through all five subsections (Collections & Stewardship → Ethics, Law, and Professional Standards → Exhibitions & Interpretation → Museum Education & Visitor Engagement → Museum Management & Governance) in order. These topics cover the practical, legal, and operational core of museum practice.
+[Key Concepts of Museology (ICOM / André Desvallées & François Mairesse, eds.)](https://icofom.mini.icom.museum/publications/key-concepts-of-museology/) - A concise theoretical companion defining the discipline's core vocabulary; consult this in parallel with your historical reading to anchor foundational concepts.
 
-## Foundations of Museums and Cultural Heritage
+## Cultural Heritage and Memory
 
-Purpose: Introduce museums as cultural institutions with specific histories, social roles, and epistemologies.
+This subject explores the concepts of tangible and intangible heritage, authorized heritage discourses, and the role of institutions in sustaining public memory.
 
-| Subject | Core Resource |
-| --- | --- |
-| What Is a Museum? (Definitions & Functions) | [ICOM – Official Museum Definition and Key Concepts of Museology](https://icom.museum/en/resources/standards-guidelines/museum-definition/) (André Desvallées & François Mairesse, eds.) |
-| History of Museums | [Edward P. Alexander, Mary Alexander, and Juilee Decker – *Museums in Motion: An Introduction to the History and Functions of Museums* (Archive.org)](https://archive.org/details/museumsinmotioni0002alex) |
-| Cultural Heritage & Memory | [UNESCO – World Heritage Centre & Cultural Heritage Conventions Portal](https://whc.unesco.org/) |
-| Material Culture & Objects | [Open University – *An Introduction to Material Culture* (OpenLearn)](https://www.open.edu/openlearn/history-the-arts/visual-art/an-introduction-material-culture/content-section-0) |
+[What is heritage? (The Open University / OpenLearn)](https://www.open.edu/openlearn/history-the-arts/what-heritage/content-section-0) - Start with this self-paced course for an interactive introduction to critical heritage concepts, official designations, and public memory.
 
-## Disciplinary Contexts for Museum Work
+[Heritage: Critical Approaches (Rodney Harrison)](https://books.google.com/books?isbn=9780415591973) - Read after completing the OpenLearn course for an advanced, monograph-length analysis of authorized heritage discourses and contemporary preservation politics.
 
-Purpose: Provide essential background knowledge across major disciplines represented in museum collections.
+## Material Culture and Object Analysis
 
-| Subject | Core Resource |
-| --- | --- |
-| Art & Visual Culture (for Museums) | [MIT OpenCourseWare – *Introduction to Art History* (Course 4.601)](https://ocw.mit.edu/courses/4-601-introduction-to-art-history-fall-2018/) |
-| Anthropology & Ethnographic Collections | [MIT OpenCourseWare – *Introduction to Anthropology* (Course 21A.00)](https://ocw.mit.edu/courses/21a-00-introduction-to-anthropology-spring-2013/) |
-| Global Historical Context | Columbia University – *History of the World to 1500 CE* (Recorded Lecture Series, YouTube) |
+This subject teaches how to analyze physical objects as primary historical evidence, carriers of meaning, and cultural documents.
 
-## Core Museological Functions
+[An Introduction to Material Culture (The Open University / OpenLearn)](https://www.open.edu/openlearn/history-the-arts/visual-art/an-introduction-material-culture/content-section-0) - Complete this introductory course first to master the core theoretical frameworks for interrogating physical artifacts.
 
-Purpose: Cover the essential operational, legal, curatorial, educational, and managerial work of museums.
+[Tangible Things: Discovering History Through Artworks, Artifacts, Scientific Specimens, and the Stuff Around You (Harvard University / edX)](https://www.edx.org/learn/history/harvard-university-tangible-things-discovering-history-through-artworks-artifacts-scientific-specimens-and-the-stuff-around-you) - A complementary, case-study course that puts object-analysis theory into practice across diverse museum collections.
 
-### Collections & Stewardship
+## Collections Management and Registration
 
-| Subject | Core Resource |
-| --- | --- |
-| Collections Management | [Connecting to Collections Care (C2C Care / FAIC Free Courses & Webinars)](https://connectingtocollections.org/) |
-| Preventive Conservation | [Canadian Conservation Institute (CCI) – *Preventive Conservation Guidelines for Collections*](https://www.canada.ca/en/conservation-institute/services/preventive-conservation.html) |
-| Documentation & Registration | [Collections Trust – *Spectrum: The UK Museum Collections Management Standard*](https://collectionstrust.org.uk/) |
+This subject covers standard procedures for accessioning, cataloging, tracking, and legally administering museum collections.
 
-### Ethics, Law, and Professional Standards
+[Museum Registration Methods (John E. Simmons and Toni M. Kiser, eds. / Rowman & Littlefield)](https://books.google.com/books?isbn=9781538113110) - The primary reference manual for professional registrarial practice, covering legal accessioning, numbering systems, storage moves, and loan administration.
 
-| Subject | Core Resource |
-| --- | --- |
-| Museum Ethics | [ICOM – *Code of Ethics for Museums*](https://icom.museum/en/resources/standards-guidelines/code-of-ethics/) |
-| Provenance & Repatriation | [Smithsonian Institution – Provenance Research Guidelines and Resources](https://www.si.edu/) |
-| Cultural Property Law | [UNESCO – *1970 Convention on the Means of Prohibiting and Preventing the Illicit Import, Export and Transfer of Ownership of Cultural Property*](https://www.unesco.org/en/fight-illicit-trafficking-cultural-property/1970-convention); Marie C. Malaro & Ildiko DeAngelis – *A Legal Primer on Managing Museum Collections* (Smithsonian Books) |
+[Connecting to Collections Care Courses and Webinars (Foundation for Advancement in Conservation)](https://connectingtocollections.org/) - A free, practical training hub offering structured video modules that demonstrate day-to-day registration and inventory workflows in practice.
 
-### Exhibitions & Interpretation
+## Preventive Conservation and Collections Care
 
-| Subject | Core Resource |
-| --- | --- |
-| Exhibition Planning & Design | [Harvard University / edX – *Tangible Things: Discovering History Through Artworks, Artifacts, Scientific Specimens, and the Stuff Around You*](https://www.edx.org/learn/history/harvard-university-tangible-things-discovering-history-through-artworks-artifacts-scientific-specimens-and-the-stuff-around-you) |
-| Interpretation & Meaning-Making | [National Association for Interpretation (NAI) Resource Library](https://www.interpnet.com/); Beverly Serrell – *Exhibit Labels: An Interpretive Approach* (Rowman & Littlefield) |
-| Narrative & Storytelling in Museums | [Smithsonian Center for Folklife and Cultural Heritage](https://folklife.si.edu/); Leslie Bedford – *The Art of Museum Storytelling* (Routledge) |
+This subject focuses on identifying environmental risks, mitigating the ten agents of deterioration, and implementing long-term preservation controls.
 
-### Museum Education & Visitor Engagement
+[Preventive Conservation Guidelines for Collections (Canadian Conservation Institute)](https://www.canada.ca/en/conservation-institute/services/preventive-conservation.html) - Study this foundational text to understand the ten agents of deterioration, damage mechanisms, and low-cost environmental control strategies.
 
-| Subject | Core Resource |
-| --- | --- |
-| Museum Learning Theory | [John H. Falk & Lynn D. Dierking – *Learning from Museums: Visitor Experiences and the Making of Meaning* (Archive.org)](https://archive.org/details/learningfrommuse0000falk) |
-| Public Programming | [University of Glasgow / FutureLearn – *Using Museums to Develop Learning*](https://www.futurelearn.com/courses/using-museums-to-develop-learning) |
-| Visitor Studies & Evaluation | [Institute of Museum and Library Services (IMLS) – Evaluation Resources and Guidelines](https://www.imls.gov/research-evaluation/evaluation-resources) |
+[C2C Care Course: Keeping Collections Safe in Storage (Connecting to Collections Care / Foundation for Advancement in Conservation)](https://connectingtocollections.org/c2c-care-course-keeping-collections-safe-in-storage/) - A four-part recorded training course that complements the Canadian Conservation Institute guidelines with applied storage reorganization and environmental monitoring demonstrations.
 
-### Museum Management & Governance
+## Museum Ethics and Cultural Property Law
 
-| Subject | Core Resource |
-| --- | --- |
-| Museum Governance | [American Alliance of Museums – Leadership and Organizational Structure Standards](https://www.aam-us.org/programs/ethics-standards-and-professional-practices/leadership-and-organizational-structure-standards/) |
-| Financial Management | [American Alliance of Museums – Funding & Business Models Resource Library](https://www.aam-us.org/programs/resource-library/funding-business-models/) |
-| Leadership & Strategy | [Università Bocconi / Coursera – *Arts and Heritage Management*](https://www.coursera.org/learn/arts-heritage-management) |
+This subject examines professional codes of conduct, fiduciary duties, and national and international legal frameworks governing cultural property.
 
-# Code of conduct
+[A Legal Primer on Managing Museum Collections (Marie C. Malaro and Ildiko DeAngelis)](https://books.google.com/books?isbn=9781588343222) - The foundational textbook on property law, bailment, copyright, deaccessioning, and trustee liability.
 
-[Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
+[Preventing Illicit Trafficking of Cultural Property (UNESCO OpenLearning)](https://openlearning.unesco.org/courses/course-v1:UNESCO+CLT_001+2025_T1_ENG/about) - A structured online course that complements the legal textbook by teaching the operational mechanics of the 1970 UNESCO Convention, export controls, and acquisition due diligence.
+
+[Museum Ethics (Gary Edson, ed. / Routledge)](https://books.google.com/books?isbn=9780415152907) - A companion reader examining the ethical philosophies, institutional conflicts of interest, and social responsibilities that underpin museum practice.
+
+## Provenance Research and Repatriation
+
+This subject covers investigative methodologies for reconstructing ownership histories, identifying looted or illicitly traded cultural property, and facilitating ethical restitutions.
+
+[Provenance Research Manual to Identify Cultural Property Seized Due to Persecution (German Lost Art Foundation)](https://kulturgutverluste.de/sites/default/files/2023-06/Manual.pdf) - Begin with this practical, open-access guide to learn standard archival research techniques, dealer stockbook analysis, and ownership gap tracing.
+
+[The AAM Guide to Provenance Research (Nancy H. Yeide, Konstantin Akinsha, and Amy L. Walsh)](https://books.google.com/books?isbn=9780931201738) - An exhaustive reference volume that expands on the introductory manual with international case studies, auction catalog guides, and investigative methodologies for Nazi-era and antiquities claims.
+
+## Exhibition Planning and Design
+
+This subject covers the entire exhibition development process, from conceptual planning and narrative scripting to spatial design and construction management.
+
+[Manual of Museum Exhibitions (Barry Lord and Maria Piacente, eds.)](https://books.google.com/books?isbn=9780759122703) - The primary comprehensive textbook covering the exhibition lifecycle from curatorial brief and budget development through fabrication, lighting, and installation.
+
+## Museum Interpretation and Label Writing
+
+This subject focuses on crafting compelling interpretive strategies, structural narrative arcs, and concise, visitor-centered gallery texts.
+
+[Exhibit Labels: An Interpretive Approach (Beverly Serrell)](https://books.google.com/books?isbn=9781442249042) - The essential practical manual on interpretive typography, label hierarchy, word count constraints, and the "Big Idea" editorial method.
+
+[The Art of Museum Exhibitions: How Story and Imagination Create Aesthetic Experiences (Leslie Bedford)](https://books.google.com/books?isbn=9781611323115) - A complementary theoretical text on designing exhibitions around narrative arcs, emotional pacing, and poetic immersion.
+
+## Museum Education and Visitor Studies
+
+This subject examines informal learning theory, educational programming, and empirical methodologies for evaluating visitor experiences.
+
+[Learning from Museums: Visitor Experiences and the Making of Meaning (John H. Falk and Lynn D. Dierking)](https://archive.org/details/learningfrommuse0000falk) - Read this first to learn the theoretical cornerstone of museum visitor research, the Contextual Model of Learning.
+
+[Using Museums to Develop Learning (University of Glasgow / FutureLearn)](https://www.futurelearn.com/courses/using-museums-to-develop-learning) - A structured online course that translates learning theory into practical gallery activities, school programs, and digital learning tools.
+
+[Practical Evaluation Guide: Tools for Museums and Other Informal Educational Settings (Judy Diamond, Michael Horn, and David H. Uttal)](https://books.google.com/books?isbn=9781442263543) - A practical handbook to use alongside the theoretical texts, detailing how to conduct timing-and-tracking studies, exit interviews, and exhibit evaluations.
+
+## Museum Management, Governance, and Operations
+
+This subject covers administrative leadership, non-profit governance, strategic planning, and financial management in cultural institutions.
+
+[Arts and Heritage Management (Università Bocconi / Coursera)](https://www.coursera.org/learn/arts-heritage-management) - Start with this free audit-mode video course for a broad overview of cultural business models, visitor economics, and organizational strategy.
+
+[The Manual of Museum Management (Gail Dexter Lord and Barry Lord)](https://books.google.com/books?isbn=9780759111981) - An authoritative textbook to study alongside the Bocconi course, providing detailed frameworks for board governance, staffing hierarchies, and operational budgeting.
