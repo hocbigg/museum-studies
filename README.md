@@ -3,20 +3,32 @@ title: Hocbigg - Museum Studies
 description: Path to a free self-taught education in Museum Studies!
 ---
 
+## Introduction
 
-# Introduction
+Museum Studies (museology) investigates how societies collect, interpret, safeguard, and display material culture and heritage. Far from being passive repositories of old objects, museums are dynamic, contested institutions that shape public memory, civic identity, and historical narrative. This curriculum provides self-directed learners with a foundational understanding of museum work: from the material analysis of artifacts and the mechanics of collections care to curatorial storytelling, visitor learning, and institutional governance.
 
-The Museum Studies curriculum is a **complete education in Museum Studies** using online materials.
+This curriculum assumes no prior training in art history, archaeology, conservation, or nonprofit management. It is designed for independent learners. The materials focus on accessible, actionable frameworks rather than abstract academic research design, making them directly relevant whether you intend to work in an institution, collaborate with community collections, or deepen your analytical perspective as a cultural observer.
 
-The program emphasizes interdisciplinary foundations (drawing from history, art history, anthropology, and cultural studies), core museum practices, ethical and theoretical frameworks, and practical synthesis. It balances theory, historical context, professional skills, and critical reflection.
+### How to Navigate the Curriculum
 
+The curriculum covers eleven core subjects grouped into four distinct functional phases. While you can tailor your route based on immediate interests, working through them in conceptual sequence is strongly recommended:
 
+- **Institutional and Material Foundations:** Begin with *Introduction to Museology and Museum History*, *Cultural Heritage and Memory*, and *Material Culture and Object Analysis*. These subjects establish what museums are, how public memory is constructed, and how to interrogate physical objects as historical and cultural evidence.
+- **Collections Stewardship and Legal Frameworks:** Move next into *Collections Management and Registration*, *Preventive Conservation and Collections Care*, *Museum Ethics and Cultural Property Law*, and *Provenance Research and Repatriation*. This phase covers the non-negotiable operational and ethical core of museum practice: accessioning procedures, environmental monitoring, legal ownership, and resolving contested or looted cultural property.
+- **The Public Interface:** Proceed to *Exhibition Planning and Design*, *Museum Interpretation and Label Writing*, and *Museum Education and Visitor Studies*. Here, focus shifts outward to the public experience, examining how curators script gallery narratives, write visitor-centered labels, design educational programs, and empirically evaluate audience engagement.
+- **Institutional Operations:** Conclude with *Museum Management, Governance, and Operations*, which brings together the administrative structures, board duties, strategic plans, and revenue models required to keep a cultural institution viable.
 
+### Beyond the Core
 
+This curriculum covers only the mandatory foundational knowledge shared across all museum types, whether fine art, social history, natural science, or historic sites. It avoids specialized subfields (such as volumetric 3D capture, time-based media conservation, or specialized art law), which belong to later study.
 
-**[How to contribute](/CONTRIBUTING.html)**
+Once you have worked through these core subjects, expand your learning across the other guides in this series:
 
-# Communities
+- Explore specialized subfields such as decolonial curation, computational heritage, and crisis risk management in [Advanced Topics](advanced_topics.md).
+- Dive into the seminal monographs, essays, and manifestos that reshaped museology in [Readings](extras/readings.md).
+- Engage with recorded masterclasses and university lecture series in [Courses](extras/courses.md).
+
+### Communities
 
 - Subreddits:
     - [r/MuseumPros](https://www.reddit.com/r/MuseumPros/)
@@ -27,9 +39,9 @@ The program emphasizes interdisciplinary foundations (drawing from history, art 
     - [National Emerging Museum Professionals Network (primarily active on LinkedIn and local chapters)](https://www.nempnetwork.org/)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/museum-studies/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
 
-# Curriculum
+## Curriculum
 
-## Introduction to Museology and Museum History
+### Introduction to Museology and Museum History
 
 This subject examines the history, definitions, and social purposes of museums from early cabinets of curiosities to contemporary institutions.
 
@@ -39,7 +51,7 @@ This subject examines the history, definitions, and social purposes of museums f
 
 [Key Concepts of Museology (ICOM / André Desvallées & François Mairesse, eds.)](https://icofom.mini.icom.museum/publications/key-concepts-of-museology/) - A concise theoretical companion defining the discipline's core vocabulary; consult this in parallel with your historical reading to anchor foundational concepts.
 
-## Cultural Heritage and Memory
+### Cultural Heritage and Memory
 
 This subject explores the concepts of tangible and intangible heritage, authorized heritage discourses, and the role of institutions in sustaining public memory.
 
@@ -47,7 +59,7 @@ This subject explores the concepts of tangible and intangible heritage, authoriz
 
 [Heritage: Critical Approaches (Rodney Harrison)](https://books.google.com/books?isbn=9780415591973) - Read after completing the OpenLearn course for an advanced, monograph-length analysis of authorized heritage discourses and contemporary preservation politics.
 
-## Material Culture and Object Analysis
+### Material Culture and Object Analysis
 
 This subject teaches how to analyze physical objects as primary historical evidence, carriers of meaning, and cultural documents.
 
@@ -55,7 +67,7 @@ This subject teaches how to analyze physical objects as primary historical evide
 
 [Tangible Things: Discovering History Through Artworks, Artifacts, Scientific Specimens, and the Stuff Around You (Harvard University / edX)](https://www.edx.org/learn/history/harvard-university-tangible-things-discovering-history-through-artworks-artifacts-scientific-specimens-and-the-stuff-around-you) - A complementary, case-study course that puts object-analysis theory into practice across diverse museum collections.
 
-## Collections Management and Registration
+### Collections Management and Registration
 
 This subject covers standard procedures for accessioning, cataloging, tracking, and legally administering museum collections.
 
@@ -63,7 +75,7 @@ This subject covers standard procedures for accessioning, cataloging, tracking, 
 
 [Connecting to Collections Care Courses and Webinars (Foundation for Advancement in Conservation)](https://connectingtocollections.org/) - A free, practical training hub offering structured video modules that demonstrate day-to-day registration and inventory workflows in practice.
 
-## Preventive Conservation and Collections Care
+### Preventive Conservation and Collections Care
 
 This subject focuses on identifying environmental risks, mitigating the ten agents of deterioration, and implementing long-term preservation controls.
 
@@ -71,7 +83,7 @@ This subject focuses on identifying environmental risks, mitigating the ten agen
 
 [C2C Care Course: Keeping Collections Safe in Storage (Connecting to Collections Care / Foundation for Advancement in Conservation)](https://connectingtocollections.org/c2c-care-course-keeping-collections-safe-in-storage/) - A four-part recorded training course that complements the Canadian Conservation Institute guidelines with applied storage reorganization and environmental monitoring demonstrations.
 
-## Museum Ethics and Cultural Property Law
+### Museum Ethics and Cultural Property Law
 
 This subject examines professional codes of conduct, fiduciary duties, and national and international legal frameworks governing cultural property.
 
@@ -81,7 +93,7 @@ This subject examines professional codes of conduct, fiduciary duties, and natio
 
 [Museum Ethics (Gary Edson, ed. / Routledge)](https://books.google.com/books?isbn=9780415152907) - A companion reader examining the ethical philosophies, institutional conflicts of interest, and social responsibilities that underpin museum practice.
 
-## Provenance Research and Repatriation
+### Provenance Research and Repatriation
 
 This subject covers investigative methodologies for reconstructing ownership histories, identifying looted or illicitly traded cultural property, and facilitating ethical restitutions.
 
@@ -89,13 +101,13 @@ This subject covers investigative methodologies for reconstructing ownership his
 
 [The AAM Guide to Provenance Research (Nancy H. Yeide, Konstantin Akinsha, and Amy L. Walsh)](https://books.google.com/books?isbn=9780931201738) - An exhaustive reference volume that expands on the introductory manual with international case studies, auction catalog guides, and investigative methodologies for Nazi-era and antiquities claims.
 
-## Exhibition Planning and Design
+### Exhibition Planning and Design
 
 This subject covers the entire exhibition development process, from conceptual planning and narrative scripting to spatial design and construction management.
 
 [Manual of Museum Exhibitions (Barry Lord and Maria Piacente, eds.)](https://books.google.com/books?isbn=9780759122703) - The primary comprehensive textbook covering the exhibition lifecycle from curatorial brief and budget development through fabrication, lighting, and installation.
 
-## Museum Interpretation and Label Writing
+### Museum Interpretation and Label Writing
 
 This subject focuses on crafting compelling interpretive strategies, structural narrative arcs, and concise, visitor-centered gallery texts.
 
@@ -103,7 +115,7 @@ This subject focuses on crafting compelling interpretive strategies, structural 
 
 [The Art of Museum Exhibitions: How Story and Imagination Create Aesthetic Experiences (Leslie Bedford)](https://books.google.com/books?isbn=9781611323115) - A complementary theoretical text on designing exhibitions around narrative arcs, emotional pacing, and poetic immersion.
 
-## Museum Education and Visitor Studies
+### Museum Education and Visitor Studies
 
 This subject examines informal learning theory, educational programming, and empirical methodologies for evaluating visitor experiences.
 
@@ -113,7 +125,7 @@ This subject examines informal learning theory, educational programming, and emp
 
 [Practical Evaluation Guide: Tools for Museums and Other Informal Educational Settings (Judy Diamond, Michael Horn, and David H. Uttal)](https://books.google.com/books?isbn=9781442263543) - A practical handbook to use alongside the theoretical texts, detailing how to conduct timing-and-tracking studies, exit interviews, and exhibit evaluations.
 
-## Museum Management, Governance, and Operations
+### Museum Management, Governance, and Operations
 
 This subject covers administrative leadership, non-profit governance, strategic planning, and financial management in cultural institutions.
 
