@@ -1,146 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Advanced Topics</title>
-<link rel="stylesheet" href="/museum-studies/style.css">
-<meta name="description" content="">
+  <title>Advanced Topics</title>
+  <meta name="description" content="Advanced Topics curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/museum-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/museum-studies/advanced_topics.html">
+  <meta property="og:title" content="Advanced Topics">
+  <meta property="og:description" content="Advanced Topics curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/museum-studies/advanced_topics.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Advanced Topics">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/museum-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/museum-studies/">Museum-Studies</a>
-<a href="/museum-studies/advanced_topics.html">Advanced Topics</a>
-<a href="/museum-studies/extras/courses.html">Extra Courses</a>
-<a href="/museum-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/museum-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/museum-studies/">Museum Studies</a></li>
+      <li><a href="/museum-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/museum-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/museum-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/museum-studies" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
 
 <h1 id="advanced-topics">Advanced Topics</h1>
 <ul>
-<li><a href="#curatorial--research-practice">Curatorial &amp; Research Practice</a></li>
-<li><a href="#digital-museums--technology">Digital Museums &amp; Technology</a></li>
-<li><a href="#inclusive-indigenous-and-community-based-museums">Inclusive, Indigenous, and Community-Based Museums</a></li>
-<li><a href="#contemporary--global-issues-in-museums">Contemporary &amp; Global Issues in Museums</a></li>
+<li><a href="#critical-curatorial-studies-contemporary-exhibition-theory">Critical Curatorial Studies &amp; Contemporary Exhibition Theory</a> - Investigates the intellectual histories of display, the spatial politics of gallery interiors, born-digital and time-based curation, and radical institutional interventions.</li>
+<li><a href="#digital-museology-computational-heritage-linked-data">Digital Museology, Computational Heritage &amp; Linked Data</a> - Explores formal semantic web ontologies, 3D metric survey and volumetric capture, multimodal immersive environments, and artificial intelligence in collections stewardship.</li>
+<li><a href="#decolonial-praxis-indigenous-curation-community-museologies">Decolonial Praxis, Indigenous Curation &amp; Community Museologies</a> - Analyzes Indigenous research methodologies, statutory repatriation workflows, participatory co-curation models, and the museological negotiation of traumatic historical memory.</li>
+<li><a href="#conservation-science-technical-art-history-heritage-emergency-management">Conservation Science, Technical Art History &amp; Heritage Emergency Management</a> - Focuses on technical art history, material degradation science, time-based media conservation, and rapid-response triage during armed conflict and climate-driven disasters.</li>
+<li><a href="#restitution-ethics-art-crime-fiduciary-museum-policy">Restitution Ethics, Art Crime &amp; Fiduciary Museum Policy</a> - Examines illicit antiquities trafficking networks, post-colonial bilateral restitution frameworks, deaccessioning jurisprudence, and the ethics of philanthropic governance.</li>
 </ul>
-<p>You do not need to study all of these advanced topics. Choose one (or more) depending on your interests and goals after you complete the core:</p>
-<ol>
-<li>Curatorial &amp; Research Practice  </li>
-<li>Digital Museums &amp; Technology  </li>
-<li>Inclusive, Indigenous, and Community-Based Museums  </li>
-</ol>
-<p><strong>Contemporary &amp; Global Issues in Museums</strong>: This is a cross-cutting track. Study it after (or alongside) any of the specialization tracks above if you are interested in current debates, future directions, and the bigger societal role of museums today.</p>
-<h2 id="curatorial-research-practice">Curatorial &amp; Research Practice</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Core Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Curatorial Practice</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.tate.org.uk/art/artists/curators">Tate – Curatorial Practice Online Resources</a> (Note: Tate's curatorial and research resources portal)</td>
-</tr>
-<tr>
-<td>Research in Museums</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.britishmuseum.org/collection/research">British Museum – Collections Research Guides</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="digital-museums-technology">Digital Museums &amp; Technology</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Core Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Digitization &amp; Digital Collections</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.si.edu/digitization/plan">Smithsonian Digitization Strategic Plan</a></td>
-</tr>
-<tr>
-<td>Digital Exhibitions</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://pro.europeana.eu/page/digital-exhibitions-toolkit">Europeana – Digital Exhibition Toolkit</a></td>
-</tr>
-<tr>
-<td>Data, Metadata &amp; Standards</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.getty.edu/research/tools/vocabularies/">Getty – Introduction to Museum Metadata</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="inclusive-indigenous-and-community-based-museums">Inclusive, Indigenous, and Community-Based Museums</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Core Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Decolonizing Museums</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://curatopia.museum/">Curatopia (ICOM Canada, open access)</a> (Note: Related open resources and publications)</td>
-</tr>
-<tr>
-<td>Accessibility &amp; Universal Design</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.si.edu/accessibility">Smithsonian Accessibility Program</a></td>
-</tr>
-<tr>
-<td>Community Partnerships</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.museumsassociation.org/campaigns/community-engagement/">Museums Association (UK) – Community Engagement Guides</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="contemporary-global-issues-in-museums">Contemporary &amp; Global Issues in Museums</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Core Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Museums &amp; Social Justice</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.museumsassociation.org/campaigns/museums-change-lives/">Museums Association – <em>Museums Change Lives</em></a></td>
-</tr>
-<tr>
-<td>Sustainability &amp; Climate Change</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://icom.museum/en/resources/sustainability/">ICOM – Museums and Sustainability Reports</a></td>
-</tr>
-<tr>
-<td>Crisis, Conflict &amp; Museums</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.iccrom.org/section/museums-and-collections/museums-crisis">ICCROM – Museums in Times of Crisis</a></td>
-</tr>
-<tr>
-<td>Global Museum Futures</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://icom.museum/en/resources/futures/">ICOM – Museum Futures &amp; Foresight Reports</a></td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+<h2 id="critical-curatorial-studies-contemporary-exhibition-theory">Critical Curatorial Studies &amp; Contemporary Exhibition Theory</h2>
+<p>This specialization examines the theoretical lineages of curating, the ideological mechanics of architectural display, methodologies for exhibiting dynamic media, and activist practices that challenge traditional institutional authority.</p>
+<p>Exhibition Histories and Curatorial Discourse: <a href="https://books.google.com/books?isbn=9780262529747" target="_blank" rel="noopener noreferrer">The Culture of Curating and the Curating of Culture(s) (Paul O'Neill / MIT Press)</a> - Traces the historical transformation of curating from collections custodianship to an autonomous, discourse-generating creative medium.</p>
+<p>Spatial Politics and Gallery Scenography: <a href="https://books.google.com/books?isbn=9780300151961" target="_blank" rel="noopener noreferrer">Spaces of Experience: Art Gallery Interiors from 1800 to 2000 (Charlotte Klonk / Yale University Press)</a> - Examines how interior gallery architecture, lighting strategies, and wall installations condition the spectator's cognitive and bodily experience.</p>
+<p>Curating Time-Based and Networked Media: <a href="https://books.google.com/books?isbn=9780262013888" target="_blank" rel="noopener noreferrer">Rethinking Curating: Art after New Media (Beryl Graham and Sarah Cook / MIT Press)</a> - Provides curatorial strategies and conceptual models for staging process-oriented, participatory, and software-driven digital art.</p>
+<p>Radical Museology and Institutional Activism: <a href="https://books.google.com/books?isbn=9783863353643" target="_blank" rel="noopener noreferrer">Radical Museology: or, What's 'Contemporary' in Museums of Contemporary Art? (Claire Bishop / Walther König)</a> - Advocates for politicized, anachronic collection displays that use historical works to critically confront present socio-political crises.</p>
+<h2 id="digital-museology-computational-heritage-linked-data">Digital Museology, Computational Heritage &amp; Linked Data</h2>
+<p>This specialization covers the computational architectures, semantic standards, 3D recording methods, and algorithmic workflows transforming collection access and digital heritage preservation.</p>
+<p>Semantic Web, Ontologies and Linked Open Data: <a href="https://www.cidoc-crm.org/resources/videos" target="_blank" rel="noopener noreferrer">CIDOC CRM Video Tutorial Series (ICS-FORTH / ICOM CIDOC)</a> - A structured video training series teaching formal semantic modeling and mapping cultural data to the ISO 21127 standard.</p>
+<p>3D Digitization and Metric Survey: <a href="https://historicengland.org.uk/images-books/publications/photogrammetric-applications-for-cultural-heritage/" target="_blank" rel="noopener noreferrer">Photogrammetric Applications for Cultural Heritage: Guidance for Good Practice (Historic England)</a> - A technical field manual covering high-resolution image capture, structure-from-motion algorithms, and metric surface reconstruction.</p>
+<p>Multimodal Scenography and Spatial Computing: <a href="https://books.google.com/books?isbn=9781841504766" target="_blank" rel="noopener noreferrer">Virtuality and the Art of Exhibition: Curatorial Design for the Multimedial Museum (Vince Dziekan / Intellect Books)</a> - Explores how spatial computing, virtual extensions, and digital mediation transform physical museum galleries into multimodal environments.</p>
+<p>Artificial Intelligence and Algorithmic Collections Stewardship: <a href="https://pro.europeana.eu/page/ai-and-cultural-heritage" target="_blank" rel="noopener noreferrer">Artificial Intelligence and Cultural Heritage Hub (Europeana Pro)</a> - Provides technical documentation, policy frameworks, and case studies on machine learning, computer vision, and automated metadata enhancement in cultural institutions.</p>
+<h2 id="decolonial-praxis-indigenous-curation-community-museologies">Decolonial Praxis, Indigenous Curation &amp; Community Museologies</h2>
+<p>This specialization focuses on decentering colonial institutional hierarchies through Indigenous methodologies, statutory repatriation workflows, radical co-curation, and the presentation of difficult histories.</p>
+<p>Indigenous Methodologies and Decolonial Curation: <a href="https://books.google.com/books?isbn=9780807837153" target="_blank" rel="noopener noreferrer">Decolonizing Museums: Representing Native America in National and Tribal Museums (Amy Lonetree / University of North Carolina Press)</a> - Details how Indigenous communities and critical curators challenge colonial narratives and address historical trauma inside major institutions.</p>
+<p>Statutory Repatriation Protocols and Tribal Consultation: <a href="https://www.youtube.com/@NationalNAGPRA" target="_blank" rel="noopener noreferrer">National NAGPRA Program Video Training Series (National Park Service)</a> - Practical instructional videos covering regulatory definitions, collections summaries, inventories, consultation protocols, and federal compliance.</p>
+<p>Community Co-Curation and Participatory Practice: <a href="https://www.participatorymuseum.org/" target="_blank" rel="noopener noreferrer">The Participatory Museum (Nina Simon)</a> - An open-access guide detailing practical frameworks for inviting visitor co-creation and sharing curatorial authority with communities.</p>
+<p>Exhibiting Contested Heritage and Traumatic Memory: <a href="https://books.google.com/books?isbn=9780415419925" target="_blank" rel="noopener noreferrer">Difficult Heritage: Negotiating the Nazi Past in Nuremberg and Beyond (Sharon Macdonald / Routledge)</a> - Investigates theoretical and practical frameworks for preserving, interpreting, and displaying sites and objects tied to traumatic national histories.</p>
+<h2 id="conservation-science-technical-art-history-heritage-emergency-management">Conservation Science, Technical Art History &amp; Heritage Emergency Management</h2>
+<p>This specialization investigates the chemical and structural diagnostic methods of technical art history, the preservation of variable digital media, and risk-management triage during armed conflict and climate disasters.</p>
+<p>Technical Art History and Material Characterization: <a href="https://books.google.com/books?isbn=9780367547646" target="_blank" rel="noopener noreferrer">Conservation of Easel Paintings (Joyce Hill Stoner and Rebecca Rushfield, eds. / Routledge)</a> - A comprehensive technical volume covering analytical spectroscopy, pigment chemistry, layer structure analysis, and material degradation.</p>
+<p>Time-Based Media Conservation and Digital Art Preservation: <a href="https://books.google.com/books?isbn=9781032343785" target="_blank" rel="noopener noreferrer">Conservation of Time-Based Media Art (Deena Engel and Joanna Phillips, eds. / Routledge)</a> - Addresses hardware obsolescence, source code analysis, software emulation, and artist intent documentation for vulnerable digital artworks.</p>
+<p>Disaster Risk Management and Crisis Stabilization: <a href="https://www.iccrom.org/publication/first-aid-cultural-heritage-times-crisis" target="_blank" rel="noopener noreferrer">First Aid to Cultural Heritage in Times of Crisis: Handbook and Toolkit (ICCROM / Aparna Tandon)</a> - An actionable field toolkit detailing protocols for securing, documenting, and stabilizing damaged cultural collections during active emergencies.</p>
+<p>Disaster Risk Management and Crisis Stabilization: <a href="https://www.youtube.com/watch?v=O2Svcj0hrPY" target="_blank" rel="noopener noreferrer">Disaster Risk Management for Cultural Heritage Conference Series (Leibniz Research Network Preservation / Smithsonian / ICOM-CC)</a> - Recorded international conference lectures presenting multi-hazard risk assessment models, climate adaptation strategies, and institutional salvage operations.</p>
+<h2 id="restitution-ethics-art-crime-fiduciary-museum-policy">Restitution Ethics, Art Crime &amp; Fiduciary Museum Policy</h2>
+<p>This specialization addresses the forensic tracking of looted antiquities networks, post-colonial bilateral restitution agreements, deaccessioning case law, and the critical ethics of institutional philanthropy.</p>
+<p>Illicit Antiquities Trafficking and Transnational Art Crime: <a href="https://www.futurelearn.com/courses/antiquities-trafficking-and-art-crime" target="_blank" rel="noopener noreferrer">Antiquities Trafficking and Art Crime (University of Glasgow / FutureLearn / Trafficking Culture)</a> - An audit-mode online course analyzing looting supply chains, grey market antiquities circulation, and international cultural property enforcement.</p>
+<p>Post-Colonial Restitution and Transnational Heritage Ethics: <a href="http://restitutionreport2018.com/" target="_blank" rel="noopener noreferrer">The Restitution of African Cultural Heritage: Toward a New Relational Ethics (Felwine Sarr and Bénédicte Savoy / Ministère de la Culture)</a> - A foundational open-access policy document outlining the moral, legal, and operational frameworks for state-level cultural restitution.</p>
+<p>Post-Colonial Restitution and Transnational Heritage Ethics: <a href="https://books.google.com/books?isbn=9780745341767" target="_blank" rel="noopener noreferrer">The Brutish Museums: The Benin Bronzes, Colonial Violence and Cultural Restitution (Dan Hicks / Pluto Press)</a> - Analyzes the military looting of the Benin Bronzes and demonstrates how ethnographic museums functioned as weapons of colonial subjugation.</p>
+<p>Deaccessioning Jurisprudence and Collections Stewardship: <a href="https://books.google.com/books?isbn=9780262037587" target="_blank" rel="noopener noreferrer">Deaccessioning and Its Discontents: A Critical History (Martin Gammon / MIT Press)</a> - The definitive historical and legal study examining museum collection disposals, fiduciary controversies, and public trust law.</p>
+<p>Critical Museum Ethics, Philanthropic Governance and Labor: <a href="https://books.google.com/books?isbn=9780415566124" target="_blank" rel="noopener noreferrer">The Routledge Companion to Museum Ethics: Redefining Ethics for the Twenty-First-Century Museum (Janet Marstine, ed. / Routledge)</a> - Explores systemic ethical challenges including corporate sponsorship conflicts of interest, trustee accountability, labor activism, and institutional transparency.</p>
+    </article>
+  </main>
 
 </body>
 </html>

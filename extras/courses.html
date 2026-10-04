@@ -1,159 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Great Courses</title>
-<link rel="stylesheet" href="/museum-studies/style.css">
-<meta name="description" content="">
+  <title>Great Courses</title>
+  <meta name="description" content="Great Courses curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/museum-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/museum-studies/extras/courses.html">
+  <meta property="og:title" content="Great Courses">
+  <meta property="og:description" content="Great Courses curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/museum-studies/extras/courses.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Great Courses">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/museum-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/museum-studies/">Museum-Studies</a>
-<a href="/museum-studies/advanced_topics.html">Advanced Topics</a>
-<a href="/museum-studies/extras/courses.html">Extra Courses</a>
-<a href="/museum-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/museum-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/museum-studies/">Museum Studies</a></li>
+      <li><a href="/museum-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/museum-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/museum-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/museum-studies" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
 
 <h1 id="great-courses">Great Courses</h1>
-<p>This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.</p>
-<h2 id="museum-theory-and-history">Museum Theory and History</h2>
-<table>
-<thead>
-<tr>
-<th>Courses</th>
-<th>Duration</th>
-<th>Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/4-609-the-art-museum-history-theory-controversy-spring-2014/">The Art Museum: History, Theory, Controversy (MIT OpenCourseWare)</a></td>
-<td>14 weeks</td>
-<td>10-12 hours/week</td>
-</tr>
-<tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/modern-art-ideas">Modern Art &amp; Ideas (Coursera / MoMA)</a></td>
-<td>4 weeks</td>
-<td>3-5 hours/week</td>
-</tr>
-</tbody>
-</table>
-<h2 id="exhibition-and-interpretation">Exhibition and Interpretation</h2>
-<table>
-<thead>
-<tr>
-<th>Courses</th>
-<th>Duration</th>
-<th>Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/learn/history/harvard-university-tangible-things">Tangible Things (edX / Harvard)</a></td>
-<td>10 weeks</td>
-<td>2-4 hours/week</td>
-</tr>
-<tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/artinquiry">Art &amp; Inquiry: Museum Teaching Strategies For Your Classroom (Coursera / MoMA)</a></td>
-<td>4 weeks</td>
-<td>4-6 hours/week</td>
-</tr>
-</tbody>
-</table>
-<h2 id="contemporary-issues-and-decolonization">Contemporary Issues and Decolonization</h2>
-<table>
-<thead>
-<tr>
-<th>Courses</th>
-<th>Duration</th>
-<th>Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.futurelearn.com/courses/meaningful-inclusive-museum-practices">Creating Meaningful and Inclusive Museum Practices (FutureLearn / ICOM)</a></td>
-<td>4 weeks</td>
-<td>3 hours/week</td>
-</tr>
-<tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/learn/teaching-strategies/the-smithsonian-institution-interdisciplinary-teaching-with-museum-objects">Interdisciplinary Teaching with Museum Objects (edX / Smithsonian)</a></td>
-<td>Self-paced</td>
-<td>2-4 hours/week</td>
-</tr>
-</tbody>
-</table>
-<h2 id="art-and-modern-museums">Art and Modern Museums</h2>
-<table>
-<thead>
-<tr>
-<th>Courses</th>
-<th>Duration</th>
-<th>Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/painting">In the Studio: Postwar Abstract Painting (Coursera / MoMA)</a></td>
-<td>7 weeks</td>
-<td>2-4 hours/week</td>
-</tr>
-<tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/photography">Seeing Through Photographs (Coursera / MoMA)</a></td>
-<td>6 weeks</td>
-<td>2-3 hours/week</td>
-</tr>
-</tbody>
-</table>
-<h2 id="online-learning-great-courses">Online Learning - Great Courses</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/learning-how-to-learn">Learning How to Learn</a></td>
-<td style="text-align: center;">4 weeks</td>
-<td style="text-align: center;">2 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/mindshift">Mindshift</a></td>
-<td style="text-align: center;">4 weeks</td>
-<td style="text-align: center;">2 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/learn/google-power-searching/google-power-searching-with-google">Powersearching with Google</a></td>
-<td style="text-align: center;">3 weeks</td>
-<td style="text-align: center;">4-6 hours/week</td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+<p>This curated collection gathers premier university lecture series, museum-produced MOOCs, and specialized professional training in <strong>Museum Studies</strong>. These courses go beyond introductory surveys to offer structured audiovisual deep dives into curatorial practice, collections care, visitor learning theory, digital transformation, and heritage protection.</p>
+<ul>
+<li><a href="#museum-history-theory-institutional-governance">Museum History, Theory &amp; Institutional Governance</a></li>
+<li><a href="#curatorial-practice-interpretation-material-culture">Curatorial Practice, Interpretation &amp; Material Culture</a></li>
+<li><a href="#museum-education-inquiry-community-engagement">Museum Education, Inquiry &amp; Community Engagement</a></li>
+<li><a href="#collections-care-conservation-storage-management">Collections Care, Conservation &amp; Storage Management</a></li>
+<li><a href="#cultural-property-law-art-crime-repatriation">Cultural Property Law, Art Crime &amp; Repatriation</a></li>
+<li><a href="#digital-heritage-collections-technology">Digital Heritage &amp; Collections Technology</a></li>
+</ul>
+<h2 id="museum-history-theory-institutional-governance">Museum History, Theory &amp; Institutional Governance</h2>
+<ul>
+<li><a href="https://www.futurelearn.com/courses/museum" target="_blank" rel="noopener noreferrer">Behind the Scenes at the 21st Century Museum (FutureLearn / University of Leicester &amp; National Museums Liverpool)</a></li>
+<li><a href="https://www.coursera.org/learn/arts-heritage-management" target="_blank" rel="noopener noreferrer">Arts and Heritage Management (Coursera / Università Bocconi)</a></li>
+</ul>
+<h2 id="curatorial-practice-interpretation-material-culture">Curatorial Practice, Interpretation &amp; Material Culture</h2>
+<ul>
+<li><a href="https://www.edx.org/learn/history/harvard-university-tangible-things-discovering-history-through-artworks-artifacts-scientific-specimens-and-the-stuff-around-you" target="_blank" rel="noopener noreferrer">Tangible Things: Discovering History Through Artworks, Artifacts, Scientific Specimens, and the Stuff Around You (edX / Harvard University)</a></li>
+<li><a href="https://www.coursera.org/learn/modern-art-ideas" target="_blank" rel="noopener noreferrer">Modern Art &amp; Ideas (Coursera / The Museum of Modern Art)</a></li>
+<li><a href="https://www.coursera.org/learn/photography" target="_blank" rel="noopener noreferrer">Seeing Through Photographs (Coursera / The Museum of Modern Art)</a></li>
+</ul>
+<h2 id="museum-education-inquiry-community-engagement">Museum Education, Inquiry &amp; Community Engagement</h2>
+<ul>
+<li><a href="https://www.coursera.org/learn/artinquiry" target="_blank" rel="noopener noreferrer">Art &amp; Inquiry: Museum Teaching Strategies For Your Classroom (Coursera / The Museum of Modern Art)</a></li>
+<li><a href="https://www.futurelearn.com/courses/meaningful-inclusive-museum-practices" target="_blank" rel="noopener noreferrer">Creating Meaningful and Inclusive Museum Practices (FutureLearn / International Council of Museums - ICOM)</a></li>
+<li><a href="https://www.futurelearn.com/courses/using-museums-to-develop-learning" target="_blank" rel="noopener noreferrer">Using Museums to Develop Learning (FutureLearn / University of Glasgow)</a></li>
+<li><a href="https://www.edx.org/learn/teaching-strategies/the-smithsonian-institution-interdisciplinary-teaching-with-museum-objects" target="_blank" rel="noopener noreferrer">Interdisciplinary Teaching with Museum Objects (edX / Smithsonian Institution)</a></li>
+</ul>
+<h2 id="collections-care-conservation-storage-management">Collections Care, Conservation &amp; Storage Management</h2>
+<ul>
+<li><a href="https://connectingtocollections.org/c2c-care-course-keeping-collections-safe-in-storage/" target="_blank" rel="noopener noreferrer">C2C Care Course: Keeping Collections Safe in Storage (Connecting to Collections Care / Foundation for Advancement in Conservation)</a></li>
+<li><a href="https://connectingtocollections.org/c2c-care-course-planning-your-re-org-project/" target="_blank" rel="noopener noreferrer">C2C Care Course: Planning Your RE-ORG Project (Connecting to Collections Care / Canadian Conservation Institute &amp; ICCROM)</a></li>
+</ul>
+<h2 id="cultural-property-law-art-crime-repatriation">Cultural Property Law, Art Crime &amp; Repatriation</h2>
+<ul>
+<li><a href="https://www.futurelearn.com/courses/antiquities-trafficking-and-art-crime" target="_blank" rel="noopener noreferrer">Antiquities Trafficking and Art Crime (FutureLearn / University of Glasgow)</a></li>
+<li><a href="https://openlearning.unesco.org/courses/course-v1:UNESCO+CLT_001+2025_T1_ENG/about" target="_blank" rel="noopener noreferrer">Preventing Illicit Trafficking of Cultural Property (UNESCO OpenLearning / United Nations Educational, Scientific and Cultural Organization)</a></li>
+<li><a href="https://www.youtube.com/@NationalNAGPRA" target="_blank" rel="noopener noreferrer">National NAGPRA Program Video Training Series (YouTube / National Park Service)</a></li>
+</ul>
+<h2 id="digital-heritage-collections-technology">Digital Heritage &amp; Collections Technology</h2>
+<ul>
+<li><a href="https://www.edx.org/learn/cultural-studies/ku-leuven-developing-digital-transition-strategies-for-cultural-heritage-institutions" target="_blank" rel="noopener noreferrer">Developing Digital Transition Strategies for Cultural Heritage Institutions (edX / KU Leuven &amp; inDICEs Project)</a></li>
+<li><a href="https://www.cidoc-crm.org/resources/videos" target="_blank" rel="noopener noreferrer">CIDOC CRM Video Tutorial Series (ICS-FORTH / ICOM International Committee for Documentation)</a></li>
+</ul>
+    </article>
+  </main>
 
 </body>
 </html>
